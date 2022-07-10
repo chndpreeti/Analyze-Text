@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-key = "33b34d9607034fd9b2a58622e47dc44c"
-endpoint = "https://preetiresource.cognitiveservices.azure.com/"
+key = " Your key "
+endpoint = "your endpoint"
 
 
 
