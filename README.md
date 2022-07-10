@@ -20,3 +20,17 @@ The application analyzes the following from the input text:
 
 - It disambiguates the identity of an entity found in text and provides links to the entity on Wikipedia.
 
+## Example
+![image](https://user-images.githubusercontent.com/46122725/178157332-2f248320-3915-465e-a8f7-10af8e4cdef4.png)
+
+## Sentiment Analysis of text
+<img width="405" alt="image" src="https://user-images.githubusercontent.com/46122725/178157350-399428ee-7f7c-4321-88f0-130450c34a85.png">
+
+## Key Phrases 
+![image](https://user-images.githubusercontent.com/46122725/178157405-e7616de1-8595-4469-bcd0-e1f3d0ce54ef.png)
+
+## Entity Recognition
+![image](https://user-images.githubusercontent.com/46122725/178157379-95a7d189-a34c-4b61-8bab-3b9211c718ea.png)
+
+
+
