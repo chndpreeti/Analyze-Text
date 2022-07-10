@@ -1,0 +1,27 @@
+
+<html>
+    <title>
+        Key Phrases
+    </title>
+    {% load static %}  
+    <body>
+
+        {% if keyy %}
+
+            <h2>Key Phrases</h2>
+            <p style="color:Blue;">Extracted key phrases from the input text are </p>
+            
+            {% for text in keyy %} 
+               {% for t in text %} 
+                 <li>{{t}}</li>
+                 {% endfor %} 
+            {% endfor %} 
+            
+        
+    {% else %}
+    {% endif %}
+
+
+
+    </body>
+</html>

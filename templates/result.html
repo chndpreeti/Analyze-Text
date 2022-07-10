@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+    <title>
+        Sentiment Analysis
+
+    </title>
+    <body>
+        {% if result %}
+
+    <h2>Setimal Analysis</h2>
+    <p style="color:Blue;">Extracted key phrases from the input text are </p>
+    <li>Language : {{result.0}} </li>
+    <li> Sentiment :  {{result.1}} </li>
+    <li> Scores : Positive = {{result.2}}, Neutral = {{result.2}}, Negative ={{result.3}} </li>
+
+{% else %}
+{% endif %}
+
+    </body>
+</html>

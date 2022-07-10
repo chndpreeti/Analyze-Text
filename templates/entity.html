@@ -1,0 +1,32 @@
+
+<html>
+    <title>
+       Entities 
+    </title>
+    {% load static %}  
+    <body>
+
+      
+
+        <h1>Entity</h1>
+        <p style="color:Blue;">Extracted entities from the input text are </p>
+        
+            {% for a,b in mylist %}
+                   
+                        <li>{{a}} : ({{b}})</li>
+                    
+            {% endfor %}
+
+           
+        <p style="color:green;">Extracted Links and url  from the entities are </p>
+            
+                {% for a,b in linklist %}
+                       
+                            <li>{{a}} :  ({{b}})</li>
+                        
+                {% endfor %}
+
+
+
+    </body>
+</html>
