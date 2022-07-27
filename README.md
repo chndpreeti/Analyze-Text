@@ -1,7 +1,5 @@
 # Text Analysis using Azure 
-
-A web app which classify, sort, and extract information from input text to identify patterns, relationships, sentiments, and other actionable knowledge.
-The analysis is done using azure text analytics cognitive services and web used is Django.
+A web-based application that classifies, sorts, and extracts information from the input text to identify patterns, relationships, feelings, and other usable knowledge. The analysis is performed using cognitive azure text analysis services and the Web used is Django.
 
 ## Function
 The application analyzes the following from the input text:
